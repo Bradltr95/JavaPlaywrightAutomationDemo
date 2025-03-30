@@ -1,13 +1,11 @@
 package browsermanager;
 
 import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
 
 public class FirefoxBrowserManager extends BrowserManager {
 
-    private Browser browser;
     private Playwright playwright;
 
     @Override
